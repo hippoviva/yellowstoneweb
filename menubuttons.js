@@ -7,7 +7,7 @@ class  Menubutton {
     this.bpos = createVector(40,height-20);
   }
 
- clicked(px,py,lines){
+ clicked1(px,py,lines){
    this.linesArr = lines;
    if(dist(px, py, this.bpos.x,this.bpos.y)<this.r){
      if (this.oncolor == "red"){
@@ -66,7 +66,7 @@ class Scenebutton {
     this.bpos = createVector(120,height-20);
   }
 
- clicked(px,py){
+ clicked2(px,py){
    console.log("intro clicked through")
 //   this.linesArr = lines;
    if(dist(px, py, this.bpos.x,this.bpos.y)<this.r){
