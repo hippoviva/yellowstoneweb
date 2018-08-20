@@ -33,6 +33,11 @@ function Animation1()
     //        textY = 0;
     //    }
     }
+    this.touchStarted = function()
+    {
+        this.sceneManager.showNextScene();
+    }    
+    
     this.mouseClicked = function()
     {
         this.sceneManager.showNextScene();
