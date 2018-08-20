@@ -49,7 +49,7 @@ function Animation2()
 
     }
 
-    this.mousePressed = function(){
+    this.mouseClicked = function(){
           for(let i=0; i<this.orgbuttons.length; i++){
       this.orgbuttons[i].clicked(mouseX,mouseY);
         }
