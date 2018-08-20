@@ -49,14 +49,14 @@ function Animation2()
 
     }
 
-    this.mouseClicked = function(){
+    this.mousePressed = function(){
           for(let i=0; i<this.orgbuttons.length; i++){
       this.orgbuttons[i].clicked(mouseX,mouseY);
         }
         this.places();
         this.lines();
-        this.linebutton.clicked(mouseX,mouseY,this.lines2prey);
-        this.introbutton.clicked(mouseX,mouseY);
+        this.linebutton.clicked1(mouseX,mouseY,this.lines2prey);
+        this.introbutton.clicked2(mouseX,mouseY);
     //    this.sceneManager.showNextScene();
     }
 
