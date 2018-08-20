@@ -33,7 +33,7 @@ function Animation1()
     //        textY = 0;
     //    }
     }
-    this.mousePressed = function()
+    this.mouseClicked = function()
     {
         this.sceneManager.showNextScene();
     }
