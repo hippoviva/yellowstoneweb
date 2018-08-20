@@ -40,14 +40,14 @@ function draw()
 {
     mgr.draw();
 }
-function mouseClicked()
+function mousePressed()
 {
-    mgr.handleEvent("mouseClicked");
+    mgr.handleEvent("mousePressed");
 }
-function touchStarted()
-{
-    mgt.handleEvent("touchStarted");
-}
+//function touchStarted()
+//{
+ //   mgt.handleEvent("touchStarted");
+//}
 
 function keyPressed()
 {
