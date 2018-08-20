@@ -13,19 +13,20 @@ function Animation1()
     {
         textX = 10;
         textY = 0;
-       push();
+        push();
         background("teal");
         image(imgelkbig, 0,0,width, height)
         textAlign(CENTER);
         fill("white");
-        text("WELCOME TO THE YELLOWSTONE FOOD WEB SIMULATOR\n\n"+
+        text("WELCOME TO THE YELLOWSTONE FOOD WEB SIMULATOR\n\n"
           //  "Press keys 1,  to jump to a particular animation\n" +
-            "touch screen or press mouse to advance animation.\n\n", width / 2, height / 4);
-            rectMode(CENTER);
-      fill(110);
-      rect(width / 2,height/3.4,60,30);
-      fill(0);
-      text("ENTER",width/2,height/3.3)
+          //  "touch screen or press mouse to advance animation.\n\n"
+             , width / 2, height / 4);
+        rectMode(CENTER);
+        fill(110);
+        rect(width / 2,height/3.4,60,30);
+        fill(0);
+        text("ENTER",width/2,height/3.3)
         pop();
     //    stroke(150);
       //  rect(30,30,20,30);
