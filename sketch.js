@@ -44,6 +44,11 @@ function mouseClicked()
 {
     mgr.handleEvent("mouseClicked");
 }
+function touchStarted()
+{
+    mgt.handleEvent("touchStarted);
+}
+
 function keyPressed()
 {
     // You can optionaly handle the key press at global level...
