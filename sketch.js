@@ -40,9 +40,9 @@ function draw()
 {
     mgr.draw();
 }
-function mousePressed()
+function mouseClicked()
 {
-    mgr.handleEvent("mousePressed");
+    mgr.handleEvent("mouseClicked");
 }
 function keyPressed()
 {
