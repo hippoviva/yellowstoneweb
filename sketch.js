@@ -46,7 +46,7 @@ function mouseClicked()
 }
 function touchStarted()
 {
-    mgt.handleEvent("touchStarted);
+    mgt.handleEvent("touchStarted");
 }
 
 function keyPressed()
