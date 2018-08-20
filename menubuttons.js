@@ -42,6 +42,7 @@ bottombuttons (){
   fill(125);
   ellipse(this.bpos.x,this.bpos.y, this.r-5, this.r-5);
   fill(255);
+  textAlign(CENTER);
   text("Lines",this.bpos.x, this.bpos.y+2);
   //image(this.img,(this.pos-8), 30);
 pop();
@@ -88,6 +89,7 @@ gotointrobutton (){
   fill(125);
   rect(this.bpos.x,this.bpos.y, this.r*2-5, this.r-5);
   fill(255);
+  textAlign(CENTER);
   text("Go to Intro",this.bpos.x, this.bpos.y+2);
   //image(this.img,(this.pos-8), 30);
 pop();
